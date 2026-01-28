@@ -1,0 +1,29 @@
+.
+├── pom.xml --> Siempre está en la raíz del proyecto
+└── src --> Directiorio para el código fuente del propio proyecto
+    ├── main
+    │   ├── java --> Código fuente del proyecto
+    │   │   └── paquete1
+    │   │       ├── Matricula.java
+    │   │       └── Triangulo.java
+    │   └── resources --> Ficheros adicionales que usa el código fuente
+    └── test --> Directorio para el código fuente de las pruebas
+        └── java --> Código fuente de las pruebas
+            └── paquete1
+                ├── MatriculaTest.java
+                └── TrianguloTest.java
+
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── paquete2
+    │   │       ├── Matricula.java
+    │   │       └── Triangulo.java
+    │   └── resources
+    └── test
+        └── java
+            └── paquete2
+                ├── MatriculaTest.java
+                └── TrianguloTest.java
