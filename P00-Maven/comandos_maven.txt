@@ -1,0 +1,7 @@
+Secuencia de acciones de comandos de Maven:
+
+- mvn compile: Genera una carpeta target con los ficheros compilados de main (formato .class) en un directorio classes, un directorio generated-sources, y otro maven-status con dos .txt con los ficheros de entrada y los de salida. Corresponde a las fases 1 a 7 del ciclo de vida por defecto de Maven.
+
+- mvn clean: Limpia todos los ficheros generados por el comando anterior (y ejecuciones anteriores), dejando al proyecto sólo con el código fuente.
+
+- mvn test: Realiza lo mismo que 'mvn compile', con la diferencia de que también compila los tests, y ejecuta las pruebas, generando informes en un directorio surefire-reports. Esto se debe a que 'test' es un paso más avanzado en el ciclo de vida por defecto, por lo que realiza las fases de compile, y las de 8 a 15. 
