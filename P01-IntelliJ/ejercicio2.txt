@@ -1,0 +1,13 @@
+EJERCICIO 2:
+
+- Comportamientos que pertenecen al conjunto S:
+	(1) fechaValida(12,13,2026) -> FALSE
+	(2) fechaValida(0,6,2023) -> FALSE
+	(3) fechaValida(29,2,2020) -> TRUE
+
+- Comportamientos que pertenecen al conjunto P:	
+        (1) fechaValida(12,13,2026) -> FALSE
+	(2) fechaValida(0,6,2023) -> FALSE
+
+- Comportamientos que pertenecen a T
+   	(1) fechaValida(29,2,2020) -> TRUE
